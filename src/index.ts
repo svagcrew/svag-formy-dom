@@ -1,4 +1,4 @@
-import { createTextInputy, type TextInputFormyComponent, type TextInputUIComponent } from '@/components/TextInput'
+import { createTextInputy, type TextInputFormyComponent, type TextInputUIComponent } from '@/components/TextInput.js'
 
 export const createFormyComponents = <TTextInputUIComponent extends TextInputUIComponent>(
   p: {

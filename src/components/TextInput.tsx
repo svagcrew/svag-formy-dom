@@ -1,4 +1,4 @@
-import type { FormyInputPropsGeneral } from '@/utils'
+import type { FormyInputPropsGeneral } from '@/utils.js'
 import type { ComponentProps } from 'react'
 import React from 'react'
 import { useFormyField } from 'svag-formy'
