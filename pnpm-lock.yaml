@@ -36,8 +36,8 @@ devDependencies:
     specifier: ^5.0.7
     version: 5.0.7
   svag-formy:
-    specifier: ^0.1.8
-    version: 0.1.8(react@18.3.1)
+    specifier: ^0.1.9
+    version: 0.1.9(react@18.3.1)
   svag-husky:
     specifier: ^0.1.49
     version: 0.1.49(@types/node@20.12.12)
@@ -6306,8 +6306,8 @@ packages:
       - babel-plugin-macros
     dev: true
 
-  /svag-formy@0.1.8(react@18.3.1):
-    resolution: {integrity: sha512-gSHd+J9e+Yz/XTWkTP214LrxHR2FHHvyzdhGPN5w1qrhjXaKCzCmiTO1h4o3gNlB8k46DuU4CNLYobQdn3A6pg==}
+  /svag-formy@0.1.9(react@18.3.1):
+    resolution: {integrity: sha512-u6HAoC1ZSxMP5Fu0jMLrxmLbPgxv2AAbfHykBDCIIDRvgOtw75gUBknJ5vDD23+ywFiMJvcN6fAiG8ay0La7Pw==}
     peerDependencies:
       react: ^18.3.1
     dependencies:
