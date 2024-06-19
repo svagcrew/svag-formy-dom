@@ -1,19 +1,19 @@
-import { createTextInputy, type TextInputFormyComponent, type TextInputUIComponent } from '@/components/TextInput.js'
+import { createTextfieldy, type TextfieldUIType, type TextfieldyType } from '@/components/Textfield.js'
 
-export const createFormyComponents = <TTextInputUIComponent extends TextInputUIComponent>(
+export const createFormyComponents = <TTextfieldUIType extends TextfieldUIType | undefined>(
   p: {
-    TextInput?: TTextInputUIComponent
+    TextfieldUI?: TTextfieldUIType
   } = {}
 ): {
-  TextInputy: TTextInputUIComponent extends TextInputUIComponent
-    ? TextInputFormyComponent<TTextInputUIComponent>
-    : never
+  Textfieldy: TTextfieldUIType extends TextfieldUIType ? TextfieldyType<TTextfieldUIType> : never
 } => {
   const components = {
-    ...(p.TextInput ? { TextInputy: createTextInputy(p.TextInput) } : {}),
+    ...(p.TextfieldUI ? createTextfieldy(p.TextfieldUI) : {}),
   }
 
   return {
     ...(components as any),
   }
 }
+
+export * from '@/components/Textfield.js'
