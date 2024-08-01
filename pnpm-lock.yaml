@@ -39,8 +39,8 @@ importers:
         specifier: ^5.0.7
         version: 5.0.7
       svag-formy:
-        specifier: ^0.1.10
-        version: 0.1.10(react@18.3.1)
+        specifier: ^0.1.12
+        version: 0.1.12(react@18.3.1)
       svag-husky:
         specifier: ^0.1.53
         version: 0.1.53(@types/node@20.12.12)
@@ -3181,8 +3181,8 @@ packages:
   svag-cli-utils@0.1.71:
     resolution: {integrity: sha512-NtHf9JRou0gmX1JUfNRGnjOKeKFzdxv9J3RiQu+TtHTCdrT+6FeAtHyWhIwSS8CNYCF+ANVBEUptv3XbB/ovTQ==}
 
-  svag-formy@0.1.10:
-    resolution: {integrity: sha512-vxQ6f9JUUEP+mQLzoXAsgLzXMcdqapqAwAxzbzq9byvhEOHW46YNXqH3cb7/aJs97czpWfEl/08WgISuxBYHYw==}
+  svag-formy@0.1.12:
+    resolution: {integrity: sha512-fblu69p0qirXj2gnY24HQe/PCGZkiwTCVM4Qnr53lbwka/EozE7dcAX3Ty+x88yZJwRyoRV2sOtsBs6KVeRwtQ==}
     peerDependencies:
       react: ^18.3.1
 
@@ -7389,7 +7389,7 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  svag-formy@0.1.10(react@18.3.1):
+  svag-formy@0.1.12(react@18.3.1):
     dependencies:
       '@types/react': 18.3.3
       formik: 2.4.6(react@18.3.1)
